@@ -1,6 +1,7 @@
-#include <stdio.h>
+#include <stdio.h> //vou chamar de biblioteca igual no C++ ela aqui tras funções extra para o codigo
+// essa expecificanete se cha,ma "Standard I/O"
 
-int main(vois) {  /*aqui podemos ter algumas variações o int na frente mostra o
+int main(void) {  /*aqui podemos ter algumas variações o int na frente mostra o
    tipo de função int main(void) não recebe nada, retorna int void imprime(void)
    não recebe nada, não retorna nada int soma(int a, int b) recebe dois int,
    retorna int
@@ -12,6 +13,7 @@ int main(vois) {  /*aqui podemos ter algumas variações o int na frente mostra 
   long big = 99999999999L; // inteiro grande, 8 bytes
 
   printf("int: %d\n", idade);
+
   printf("char: %c (valor:%d)\n", letra, letra);
   printf("float: %f\n", preco);
   printf("double: %.8f\n", pi);
