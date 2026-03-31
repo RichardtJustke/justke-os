@@ -10,8 +10,10 @@ int main(void) {
   float strenght = 15.89;
 
   printf("Name: %s\n", name);
-  printf("Class: %s\n", mago);
-  printf( :)
+  printf("Class: %s\n", class);
+  printf("Level: %d\n", level);
+  printf("Life: %d\n", life);
+  printf("float %f\n", strenght);
 
-      return 0;
+  return 0;
 }
